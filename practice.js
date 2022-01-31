@@ -93,7 +93,7 @@ function first_scrape(){(async function scrape() {
          let current=parseInt(pageno);
          console.log(current,"current");
 
-        // setTimeout( function() { getnext(current+1,t-25); }, aftertime);
+        setTimeout( function() { getnext(current+1,t-25); }, aftertime);
      }
 //     let data=[];
 //     for(i = 0 ; i < selectorPersonNames.length ; i++) {
